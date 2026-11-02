@@ -165,6 +165,8 @@ plt.show()
 - Foreground objects are created using OpenCV.
 - Small foreground noise and holes are added.
 - The original image is displayed.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c17486be-608b-4ac5-946d-55b10c19818b" />
+
 
 ### 2. Opening Operation
 
@@ -173,6 +175,8 @@ plt.show()
 - Small foreground noise is removed.
 - Thin protrusions are eliminated.
 - Larger foreground objects are preserved.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/794c4010-e131-420b-a25d-9ea1f270a5ce" />
+
 
 ### 3. Closing Operation
 
@@ -180,11 +184,15 @@ plt.show()
 - Dilation is followed by Erosion.
 - Small holes and gaps are filled.
 - Foreground objects become more continuous.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b9735c3c-6c5b-4eb5-a213-3fcef4246081" />
+
 
 ### 4. Comparison Output
 
 - Original image, opened image, and closed image are displayed together.
 - The differences between both morphological operations are observed.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/522819c5-d7c8-4b02-bfc0-3882379795b0" />
+
 
 ## Applications
 
@@ -218,23 +226,3 @@ plt.show()
 
 Thus, the morphological operations Opening and Closing were successfully implemented using Python and OpenCV. Opening removes small foreground noise, whereas Closing fills small holes and gaps in foreground objects.
 
-## Output Screenshots
-
-Add your Jupyter Notebook screenshots below:
-
-- **Output 1:** Original Binary Image
-- **Output 2:** Structuring Element
-- **Output 3:** Opening Operation
-- **Output 4:** Closing Operation
-- **Output 5:** Comparison of Original, Opening, and Closing
-
-## Instructions
-
-1. Open Anaconda Navigator and launch Jupyter Notebook.
-2. Run each program separately in the given order.
-3. Verify the Opening and Closing outputs.
-4. Capture screenshots of all outputs.
-5. Copy the README content into your GitHub repository.
-6. Commit the changes.
-7. Attach the lab report PDF separately in LMS.
-8. Mention the GitHub repository URL in the submission text.
